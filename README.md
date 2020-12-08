@@ -2,11 +2,13 @@
 
 #### 🈚 http URL parser
 
-The http parser from NGINX, extracted from the NODE code base. 
+The http parser from NGINX, extracted from the NODE code base.
 Based on src/http/ngx_http_parse.c from NGINX copyright Igor Sysoev
 
--------------|-----------------------------------
-[![Build Status](https://travis-ci.org/mulle-c/mulle-http.svg?branch=release)](https://travis-ci.org/mulle-c/mulle-http) | ![Mulle kybernetiK tag](https://img.shields.io/github/tag/mulle-c/mulle-http.svg) [![Build Status](https://travis-ci.org/mulle-c/mulle-http.svg?branch=release)](https://travis-ci.org/mulle-c/mulle-http)
+
+| Release Version
+|-----------------------------------
+| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/mulle-c/mulle-http.svg?branch=release) [![Build Status](https://github.com/mulle-c/mulle-http/workflows/CI/badge.svg?branch=release)](https://github.com/mulle-c/mulle-http/actions)
 
 
 ## Add
