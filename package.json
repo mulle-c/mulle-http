@@ -1,0 +1,15 @@
+{
+   "name" : "mulle-http",
+   "version" : "0.1.1",
+   "description" : "🈚 http URL parser",
+   "homepage" : "https://github.com/mulle-c/mulle-http",
+   "bugs" : "https://github.com/mulle-c/mulle-http/issues",
+   "keywords" : [],
+   "license" : "UNLICENSED",
+   "repository" : {
+      "type" : "git",
+      "url" : "mulle-c/mulle-http"
+   },
+   "dependencies" : {
+   }
+}
