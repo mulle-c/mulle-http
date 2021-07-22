@@ -8,4 +8,4 @@ if( MULLE_TRACE_INCLUDE)
    MESSAGE( STATUS "# Include \"${CMAKE_CURRENT_LIST_FILE}\"" )
 endif()
 
-message( STATUS " No resources found. `mulle-sde environment set MULLE_MATCH_TO_CMAKE_RESOURCES_FILE NONE`, to avoid this (harmless warning)")
+# Source generation disabled by MULLE_MATCH_TO_CMAKE_RESOURCES_FILE=NONE
