@@ -21,6 +21,11 @@
 
 #include "_mulle-http-include.h"
 
+#ifndef MULLE_HTTP_EXTERN_GLOBAL
+# define MULLE_HTTP_EXTERN_GLOBAL MULLE_C_EXTERN_GLOBAL
+#endif
+
+
 /* You can add some more include statements here */
 
 #endif

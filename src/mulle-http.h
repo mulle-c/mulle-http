@@ -37,7 +37,7 @@
 #ifndef mulle_http_h__
 #define mulle_http_h__
 
-#define MULLE_HTTP_VERSION  ((0 << 20) | (1 << 8) | 2)
+#define MULLE_HTTP_VERSION  ((0 << 20) | (1 << 8) | 3)
 
 #include "include.h"
 
@@ -45,5 +45,11 @@
 
 // TODO: figure out if picohttpparser isn't better
 #include "http_parser.h"
+
+#ifdef __has_include
+# if __has_include( "_mulle-http-versioncheck.h")
+#  include "_mulle-http-versioncheck.h"
+# endif
+#endif
 
 #endif /* mulle_http_h */
