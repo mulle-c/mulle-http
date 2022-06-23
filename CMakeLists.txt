@@ -1,9 +1,6 @@
-cmake_minimum_required( VERSION 3.1)
+cmake_minimum_required( VERSION 3.15)
 
 project( mulle-http C)
-
-add_definitions( -DMULLE_HTTP_EXTERN_GLOBAL=extern)
-
 
 
 ### mulle-sde environment
