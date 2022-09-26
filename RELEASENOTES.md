@@ -1,3 +1,7 @@
+### 0.1.5
+
+* Various small improvements
+
 ### 0.1.4
 
 * GLOBAL change for Windows

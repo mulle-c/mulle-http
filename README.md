@@ -20,7 +20,7 @@ Based on src/http/ngx_http_parse.c from NGINX copyright Igor Sysoev
 
 Use [mulle-sde](//github.com/mulle-sde) to add mulle-http to your project:
 
-```
+``` sh
 mulle-sde dependency add --c --github mulle-c mulle-http
 ```
 
@@ -30,24 +30,22 @@ mulle-sde dependency add --c --github mulle-c mulle-http
 
 Use [mulle-sde](//github.com/mulle-sde) to build and install mulle-http and all dependencies:
 
-```
+``` sh
 mulle-sde install --linkorder --prefix /usr/local \
-   //github.com/mulle-c/mulle-http/archive/latest.tar.gz
+   https://github.com/mulle-c/mulle-http/archive/latest.tar.gz
 ```
 
 ### Manual Installation
 
 Install into `/usr/local`:
 
-```
-mkdir build 2> /dev/null
-(
-   cd build ;
-   cmake -DCMAKE_INSTALL_PREFIX=/usr/local \
-         -DCMAKE_PREFIX_PATH=/usr/local \
-         -DCMAKE_BUILD_TYPE=Release .. ;
-   make install
-)
+``` sh
+cmake -B build \
+      -DCMAKE_INSTALL_PREFIX=/usr/local \
+      -DCMAKE_PREFIX_PATH=/usr/local \
+      -DCMAKE_BUILD_TYPE=Release &&
+cmake --build build --config Release &&
+cmake --install build --config Release
 ```
 
 ## Platforms and Compilers
