@@ -1,6 +1,6 @@
 {
    "name" : "mulle-http",
-   "version" : "0.1.1",
+   "version" : "0.1.5",
    "description" : "🈚 http URL parser",
    "homepage" : "https://github.com/mulle-c/mulle-http",
    "bugs" : "https://github.com/mulle-c/mulle-http/issues",
@@ -11,5 +11,6 @@
       "url" : "mulle-c/mulle-http"
    },
    "dependencies" : {
+      "mulle-c11" : "git://github.com/mulle-c/mulle-c11"
    }
 }
