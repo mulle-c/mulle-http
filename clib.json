@@ -1,0 +1,22 @@
+{
+   "name" : "mulle-http",
+   "version" : "0.1.5",
+   "description" : "http URL parser",
+   "keywords" : [],
+   "license" : "BSD-3-Clause",
+   "repo" : "mulle-c/mulle-http",
+   "src" : [
+      "src/generic/include-private.h",
+      "src/generic/include.h",
+      "src/http_parser.c",
+      "src/http_parser.h",
+      "src/mulle-http.h",
+      "src/reflect/_mulle-http-include-private.h",
+      "src/reflect/_mulle-http-include.h",
+      "src/reflect/_mulle-http-provide.h",
+      "src/reflect/_mulle-http-versioncheck.h"
+   ],
+   "dependencies" : {
+      "mulle-c/mulle-c11": "*"
+   }
+}

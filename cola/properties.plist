@@ -1,0 +1,20 @@
+{
+   project =
+   {
+      description="🈚 http URL parser";
+      domain="github";
+      name="mulle-http";
+      user="mulle-c";
+      repo="mulle-http";
+      homepage="https://github.com/mulle-c/mulle-http";
+      license="BSD-3-Clause"
+   };
+   dependencies =
+   (
+      {
+         name="mulle-c11";
+         url="https://github.com/mulle-c/mulle-c11";
+         description="🔀 Cross-platform C compiler glue (and some cpp conveniences)";
+      }
+   )
+}
