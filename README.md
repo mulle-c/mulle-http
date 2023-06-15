@@ -5,6 +5,7 @@
 The http parser from NGINX, extracted from the NODE code base.
 Based on `src/http/ngx_http_parse.c` from NGINX copyright Igor Sysoev
 
+
 | Release Version                                       | Release Notes
 |-------------------------------------------------------|--------------
 | ![Mulle kybernetiK tag](https://img.shields.io/github/tag/mulle-c/mulle-http.svg?branch=release) [![Build Status](https://github.com/mulle-c/mulle-http/workflows/CI/badge.svg?branch=release)](//github.com/mulle-c/mulle-http/actions)| [RELEASENOTES](RELEASENOTES.md) |
@@ -23,6 +24,13 @@ Based on `src/http/ngx_http_parse.c` from NGINX copyright Igor Sysoev
 
 
 ## Add
+
+**This project is a component of the [mulle-core](//github.com/mulle-core/mulle-core) library. As such you usually will *not* add or install it
+individually, unless you specifically do not want to link against
+`mulle-core`.**
+
+
+### Add as an individual component
 
 Use [mulle-sde](//github.com/mulle-sde) to add mulle-http to your project:
 
