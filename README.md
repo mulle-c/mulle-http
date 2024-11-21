@@ -9,7 +9,7 @@ Based on `src/http/ngx_http_parse.c` from NGINX copyright Igor Sysoev
 
 | Release Version                                       | Release Notes
 |-------------------------------------------------------|--------------
-| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/mulle-c/mulle-http.svg?branch=release) [![Build Status](https://github.com/mulle-c/mulle-http/workflows/CI/badge.svg?branch=release)](//github.com/mulle-c/mulle-http/actions) | [RELEASENOTES](RELEASENOTES.md) |
+| ![Mulle kybernetiK tag](https://img.shields.io/github/tag/mulle-c/mulle-http.svg?branch=master) [![Build Status](https://github.com/mulle-c/mulle-http/workflows/CI/badge.svg?branch=master)](//github.com/mulle-c/mulle-http/actions) | [RELEASENOTES](RELEASENOTES.md) |
 
 
 
