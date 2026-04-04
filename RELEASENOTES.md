@@ -1,5 +1,3 @@
-### 0.1.11
+### 0.1.12
 
-
-* clarified workflow with vibecoding setup step
-* separated quickstart from add instructions
+Various small improvements
