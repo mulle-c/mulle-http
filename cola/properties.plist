@@ -6,7 +6,7 @@
       name="mulle-http";
       user="mulle-c";
       repo="mulle-http";
-      version="0.1.13";
+      version="0.1.14";
       homepage="https://github.com/mulle-c/mulle-http";
       license="BSD-3-Clause";
    };
