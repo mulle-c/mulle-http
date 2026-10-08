@@ -1,6 +1,7 @@
 ### 0.1.15
 
 
+
 * Document `MULLE__HTTP_VERSION` bump from 0.1.14 to 0.1.15
 * Document tightened mulle-c11 versioncheck range to 4.9.1
 
