@@ -3,10 +3,11 @@
    {
       description="🈚 http URL parser";
       domain="github";
+      language="c";
+      dialect="c";
       name="mulle-http";
       user="mulle-c";
       repo="mulle-http";
-      version="0.1.15";
       homepage="https://github.com/mulle-c/mulle-http";
       license="BSD-3-Clause";
    };
